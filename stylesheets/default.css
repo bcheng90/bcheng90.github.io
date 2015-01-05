@@ -66,7 +66,7 @@ h2{
   width: 73.75%;
   display: inline-block;
 }
-#blogs {
+#box1 {
   width: 440px;
   height: 200px;
   background-color: #36465d;
@@ -89,7 +89,7 @@ h4{
   display: block;
   padding: 10px 0px 10px 0px;
 }
-#projects {
+#box2 {
   width: 440px;
   height: 200px;
   background-color: #36465d;
