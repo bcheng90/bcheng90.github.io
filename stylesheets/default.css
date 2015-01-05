@@ -46,6 +46,9 @@ a {
   color: gray;
   padding: 3px;
 }
+a:hover {
+  color: black;
+}
 #topContent {
   width: 924px;
   height: 200px;
