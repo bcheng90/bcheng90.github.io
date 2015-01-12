@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+  <title>Hash(tag) Arrays</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+</head>
+
+<main>
+  <h1>Hash(tag) Arrays</h1>
+  <h2>#array #hashes #dbc #blog
+    <span id="date">January 11, 2015</span>
+  </h2>
+
+  <section>
+    <p id="p">
+      When you receive a ton of data, you'll need a way to sort through it all. The collections of data that you have might also need to be sorted by length or alphabetically. How does one create an index of information like this? With Ruby, it's simple! Kind of. Let's talk about arrays and hashes!
+    </p>
+    <p id="p">
+      An array is a list of items in order. That's the most simplified answer I can give you. Now to build on this, let's make a list of items:
+      <ul>
+        <h3>Cookie Brands</h3>
+        <li>Oreos</li>
+        <li>Chips Ahoy</li>
+        <li>Famous Amos</li>
+        <li>Milano</li>
+      </ul>
+    </p>
+    <p id="p">
+      From here, we now have four <span class="bold">values</span>. Each of these values are tied to a <span class="bold">key</span> (or in this case, an integer). If written out, the array will look like this:
+      <ul>
+        <li>cookie_brands=['Oreos', 'Chips Ahoy', 'Famous Amos', 'Milano']</li>
+      </ul>
+    </p>
+    <p id="p">
+      The "Oreos" value is tied to the key [0]. The "Chips Ahoy" value is tied to [1]. This continues for all other values. It is important to remember that the keys within arrays all begin with 0, rather than 1. So what happens when you want to call on the 3rd value within an array? Look at the following example:
+      <ul>
+        <li>cookie_brands[2] = "Famous Amos"</li>
+      </ul>
+    </p>
+    <p id="p">
+      Alright, lets check out Hashes. Hashes are lists in no particular order. They are another form of keys and value pairs. They differ from arrays by allowing the keys to be any object within Ruby. That means a key can be represented by an integer, a string, or a character. It's also to be noted that they're not ordered. Arrays are ordered from 0 to whatever number, but Hashes can be in any order. Let's check out an example.
+      <ul>
+        <h3>Pet Names</h3>
+        <li>Turtle:"Franklin"</li>
+        <li>Cat:"Garfield"</li>
+        <li>Rabbit:"Bugs"</li>
+        <li>Dog:"Pluto"</li>
+      </ul>
+    </p>
+    <p id="p">
+      The keys within this list would be the types of pets. The values would be their names. If written into code, it would look like this:
+      <ul>
+        <li>pet_names = {"Turtle"=>"Franklin", "Cat"=>"Garfield", "Rabbit"=>"Bugs", "Dog"=>"Pluto"}</li>
+      </ul>
+    </p>
+    <p id="p">
+      Think of hashes kind of like a dictionary. Each word within the dictionary represents a key and each definition would be it's value. If we wanted to call upon the value of rabbit, it'd look like this:
+      <ul>
+        <li>pet_names[rabbit] = "Bugs"</li>
+      </ul>
+    </p>
+    <p id="p">
+      Hope this has been helpful in figuring out the differences between arrays and hashes!
+    </p>
+  </section>
+</main>

@@ -9,13 +9,19 @@ h1 {
 h2 {
   font-size: 24px;
 }
+h3{
+  text-decoration: underline;
+}
 #date {
-  margin-left: 750px;
+  margin-left: 700px;
   font-size: 16px;
 }
 section {
   border: 2px dashed gray;
 }
-p {
+#p {
   margin: 10px;
+}
+.bold {
+  font-weight: bold;
 }
