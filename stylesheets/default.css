@@ -4,7 +4,7 @@ body {
   margin: auto;
   padding: 0px;
   color: white;
-  width: 1280px;
+  width: 950px;
   position: relative;
 }
 header {
@@ -22,12 +22,12 @@ header {
   display: inline-block;
 }
 h1 {
-  margin-left: 455px;
+  margin-left: 325px;
   display: inline-block;
   padding-bottom: 30px;
 }
 #navbar{
-  margin: 5px 0px 5px 330px;
+  margin: 5px 0px 5px 225px;
 }
 .navLink{
   display: inline-block;
@@ -50,23 +50,25 @@ a:hover {
   color: black;
 }
 #topContent {
-  width: 924px;
-  height: 200px;
+  width: 868px;
+  height: 50%;
   background-color: #36465d;
   position:relative;
   margin: 10px;
-  border: 1px dashed gray;
+  padding: 30px;
+  border: 2px dashed gray;
+  border-radius: 5%;
+  overflow: hidden;
+
 }
 #recentBlog {
   position: relative;
-  overflow: hidden;
-  padding: 5px;
 }
 h2{
   text-decoration: underline;
 }
 #bottomContent {
-  width: 73.75%;
+  width: 100%;
   display: inline-block;
 }
 #box1 {
@@ -74,8 +76,10 @@ h2{
   height: 200px;
   background-color: #36465d;
   margin: 10px 10px 10px 10px;
-  border: 1px dashed gray;
+  border: 2px dashed gray;
+  border-radius: 5%;
   float: left;
+  overflow: scroll;
 }
 h4{
   text-align: center;
@@ -97,23 +101,12 @@ h4{
   height: 200px;
   background-color: #36465d;
   margin: 10px 10px 10px 10px;
-  border: 1px dashed gray;
-  float:right;
-}
-#sidebar {
-  width: 310px;
-  height: 350px;
-  background-color: #36465d;
-  border: 1px dashed gray;
-  overflow: hidden;
-  margin: -435px 10px 0px 946px;
-  position: absolute;
+  border: 2px dashed gray;
+  border-radius: 5%;
+  float: right;
+  overflow: scroll;
 }
 h3 {
   text-align: center;
   text-decoration: underline;
-}
-#update {
-  text-align: justify;
-  padding: 5px;
 }
