@@ -25,3 +25,9 @@ section {
 .bold {
   font-weight: bold;
 }
+a {
+  color: gray;
+}
+a:hover{
+  color: black;
+}

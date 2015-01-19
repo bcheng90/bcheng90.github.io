@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+  <title>Mapping Out my Journey</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+</head>
+
+<main>
+  <h1>Mapping Out my Journey</h1>
+  <h2>Four weeks into this adventure!
+    <span id="date">January 18th, 2015</span>
+  </h2>
+
+  <section>
+    <p>
+      The past two weeks have been much more concentrated with Ruby. It's been a lot of researching of methods and googling of "HOW DOES THIS WORK?!!?" but I've gotten pretty used to the scheme of things. There are many ways to manipulate objects within Ruby. You can collect data using arrays, hashes, and use <i>Enumerables</i>to search, and sort through them.</p>
+    <p>
+      Let's discuss "map". To fully discuss "map", it's also important to talk about the another enumerable "each". Each iterates an object through a block for each value. Next, it throws out the return value of the block and returns the original object it was called on again. Let's take a look:
+      <ul>
+        <li> [1,2,3].each do |i|</li>
+        <li>i + 1</li>
+        <li>end</li>
+      </ul>
+    </p>
+    <p>
+      This will return the result of 1, 2, and 3. Map, however, will do the same as each except it will instead transform the original object into a new object with the returned values. Like so:
+      <ul>
+        <li> [1,2,3].map do |i|</li>
+        <li>i + 1</li>
+        <li>end</li>
+      </ul>
+    </p>
+    <p>
+      Which will become 2, 3, and 4.
+    </p>
+    <p>
+      This is especially useful when you need to change a certain element within an array or hash. Until next week!
+    </p>
+  </section>
+</main>
+
