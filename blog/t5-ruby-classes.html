@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+  <title>Classes in Ruby</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+</head>
+
+<main>
+  <h1>Classes in Ruby</h1>
+  <h2>I'm not talking about DBC Classes!
+    <span id="date">January 24th, 2015</span>
+  </h2>
+
+  <section>
+    <p>
+      Classes are quickly becoming my main focus point within Phase 0. A Class is simply like a foundation to create an object. In other words, lets say you're a counterfeiter. You have your templates (Class) that creates all your fake dollar bills (objects). Each counterfeit bill, whether it be a single dollar bill, a five dollar bill, a ten, or a twenty are your objects of the templates. The template, which is your class, will create all your bills, even if they don't look all the same at the end result. Let's check this out:
+    </p>
+    <p>
+      class Counterfeit<br>
+      &nbsp;def initialize(bills)<br>
+      &nbsp;&nbsp;@bills = bills<br>
+      &nbsp;end<br>
+
+      &nbsp;def printing<br>
+      &nbsp;&nbsp;if @bills == 1<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;p "Made a $1 bill"<br>
+      &nbsp;&nbsp;elsif @bills == 5<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;p "Made a $5 bill"<br>
+      &nbsp;&nbsp;elsif @bills == 10<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;p "Made a $10 bill"<br>
+      &nbsp;&nbsp;elsif @bills == 20<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;p "Made a $20 bill"<br>
+      &nbsp;&nbsp;else<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;p "Now that's just a super fake bill."<br>
+      &nbsp;&nbsp;end<br>
+      &nbsp;end<br>
+      end<br>
+      <br>
+      <br>
+      new_bill = Counterfeit.new(5)<br>
+      new_bill.printing<br>
+    </p>
+    <p>
+      What this is doing here is creating the class of "Counterfeit", initializing the "bills" to an instance variable of "bills". This allows the variable of bills to be used solely within the Class. Defining the method of printing will allow for us to later run the code that follows the "if". This next block of code will only print out the result of "Made a $x bill" where x is equal to the values seen in the code. So at the bottom of it, new_bill is the new object we are creating. The new_bill is going to be made new with the paramater of 5 (which is going to be a $5 bill). new_bill.printing is going to run the object through our new method "printing" and the result is going to be that the console will print out "Made a $5 bill". Cool huh?
+    </p>
+  </section>
+</main>
+
