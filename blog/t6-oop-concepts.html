@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+  <title>In the Scope of Things</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+</head>
+
+<main>
+  <h1>In the Scope of Things</h1>
+  <h2>All these variables.. what to do?
+    <span id="date">January 31st, 2015</span>
+  </h2>
+
+  <section>
+    <p id="p">
+      Ruby, an object-orientated programming language, uses variables within each program that can be broken into five types. There are global, constant, class, instance, and local variables. Each is denoted using either a symbol prior to the variable, uppercase letters, or lowercase letters. It's important to understand how the scope of a variable impacts your program. Let's discuss each:
+    </p>
+    <p id="p">
+      Global variables are accessed anywhere within your Ruby program. They are denoted by a dollar symbol ($). These are generally not used within programs because not only are they accessible anywhere, they can also be changed anywhere.
+    </p>
+    <p id="p">
+      Constant variables are exactly as they sound. The value that you give a variable will forever stay constant! These are denoted by using all uppercase letters (CONSTANT). Regardless of where you declare the variable, it will stay whatever you declared throughout your program.
+    </p>
+    <p id="p">
+      Class variables and instance variables are where I struggled to figure out the difference. Looking back, it wasn't too hard to understand. Class variables (denoted with @@) act similar to a global variable, except they only live within the class defined. If changed inside that class, the class variable will change for all the times you used that variable. An instance variable (denoted with @) also lives within a class. However, an instance variable will be local to an object within the class. You can change the values of the instance variable but the change will only affect the specific object in which it is called.
+    </p>
+    <p id="p">
+      Local variables are the easiest to understand. They simply live within a method or a loop. They can't be accessed outside of said method or said loop. They only live...locally...
+    </p>
+    <p id="p">
+      Variable scopes are truly a great thing to understand. It helps build an efficient code and a readable code. Keep on practicing!
+    </p>
+  </section>
+</main>
+

@@ -1,13 +1,19 @@
 * {
   font-family: Verdana;
-  background-color: #36465d;
+  background-color: #2C3A4C;
   color: white;
+}
+body {
+  width: 720px;
+  margin: 0px auto;
 }
 h1 {
   font-size: 36px;
+  text-align: center;
+  margin: 0px auto;
 }
 h2 {
-  font-size: 24px;
+  font-size: 16px;
 }
 h3{
   text-decoration: underline;
@@ -18,9 +24,13 @@ h3{
 }
 section {
   border: 2px dashed gray;
+  border-radius: 5%;
+  padding: 10px 25px;
+  background-color: #36465d;
 }
 #p {
   margin: 10px;
+  background-color: #36465d;
 }
 .bold {
   font-weight: bold;
