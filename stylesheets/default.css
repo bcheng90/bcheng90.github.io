@@ -42,13 +42,19 @@ h1 {
   width: 100%;
   background-color:#1C2430;
 }
-a {
+a:link {
   color: gray;
   padding: 3px;
 }
+
+a:visited {
+  color: gray;
+}
+
 a:hover {
   color: black;
 }
+
 #topContent {
   width: 868px;
   height: 50%;
