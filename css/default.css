@@ -1,3 +1,74 @@
+body {
+  font-family: 'PT Sans';
+}
+
 #welcome {
-  background: url("homepage.jpg");
+  background: url("../img/homepage.jpg");
+  height: 588px;
+}
+
+#welcome h1 {
+  font-family: 'Changa One';
+  text-align: center;
+  font-size: 108px;
+  margin-top: 75px;
+  color: white;
+  text-shadow: 0px 0 black, 0 2px black, 2px 0 black, 0 0px black;
+}
+
+#aboutButton {
+  margin-top: 25px;
+  margin-left: 44%;
+}
+
+.button.custom {
+  font-family: 'PT Sans';
+  background-color: #1F2D3A;
+}
+
+.button.custom:hover,
+.button.custom:focus {
+  background-color: #000000;
+}
+
+#portfolio {
+
+}
+
+#portfolio h2 {
+  text-align: center;
+}
+
+#contact {
+  background-color: #f2f2f2;
+  padding-top: 15px;
+}
+
+#contact h2 {
+  text-align: center;
+}
+
+#contact ul {
+  text-align: center;
+  list-style-type: none;
+}
+#contact li {
+  display: inline;
+  padding: 15px;
+}
+
+#contact i {
+  font-size: 24px;
+}
+
+.linkedin-blue {
+  color: #4875B4;
+}
+
+.black {
+  color: #000000;
+}
+
+.fb-blue {
+  color: #3b5998;
 }
