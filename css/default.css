@@ -3,8 +3,9 @@ body {
 }
 
 #welcome {
-  background: url("http://i.imgur.com/dtvLH7A.jpg") no-repeat center;
-  height: 588px;
+  position: relative;
+  background: url("http://i.imgur.com/O05BZA2.jpg") no-repeat center;
+  height: 500px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -20,43 +21,41 @@ body {
   text-shadow: 0px 0 black, 0 2px black, 2px 0 black, 0 0px black;
 }
 
-#aboutButton {
-  margin-top: 25px;
-  margin-left: 44%;
-
-}
-
-.button.custom {
-  font-family: 'PT Sans';
-  background-color: #1F2D3A;
-}
-
-.button.custom:hover,
-.button.custom:focus {
-  background-color: #000000;
-}
-
-.button.tiny {
-  font-family: 'PT Sans';
-  background-color: #1F2D3A;
-}
-.button.tiny:hover,
-.button.tiny:focus {
-  background-color: #000000;
-}
-
 #portfolio {
-
+  position: relative;
+  height: 500px;
 }
 
 #portfolio h2 {
+  font-family: 'Changa One';
   text-align: center;
 }
-#project h3 {
+#project h4 {
   text-align: center;
-  font-style: underline;
 }
+
+#about-me {
+  position: relative;
+  height: 500px;
+  position: relative;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("http://i.imgur.com/6pRRh4o.jpg") no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#about-me h2 {
+  font-family: 'Changa One';
+  text-align: center;
+}
+
 #contact {
+  position: relative;
   background-color: #f2f2f2;
   padding-top: 15px;
 }
@@ -80,6 +79,14 @@ body {
 
 .linkedin-blue {
   color: #4875B4;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .black {
