@@ -3,14 +3,18 @@ body {
 }
 
 #welcome {
-  background: url("http://i.imgur.com/dtvLH7A.jpg");
+  background: url("http://i.imgur.com/dtvLH7A.jpg") no-repeat center;
   height: 588px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #welcome h1 {
   font-family: 'Changa One';
   text-align: center;
-  font-size: 108px;
+  font-size: 8vw;
   margin-top: 75px;
   color: white;
   text-shadow: 0px 0 black, 0 2px black, 2px 0 black, 0 0px black;
@@ -19,6 +23,7 @@ body {
 #aboutButton {
   margin-top: 25px;
   margin-left: 44%;
+
 }
 
 .button.custom {
@@ -31,6 +36,15 @@ body {
   background-color: #000000;
 }
 
+.button.tiny {
+  font-family: 'PT Sans';
+  background-color: #1F2D3A;
+}
+.button.tiny:hover,
+.button.tiny:focus {
+  background-color: #000000;
+}
+
 #portfolio {
 
 }
@@ -38,7 +52,10 @@ body {
 #portfolio h2 {
   text-align: center;
 }
-
+#project h3 {
+  text-align: center;
+  font-style: underline;
+}
 #contact {
   background-color: #f2f2f2;
   padding-top: 15px;
