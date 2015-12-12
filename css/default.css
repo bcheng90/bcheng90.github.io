@@ -23,7 +23,7 @@ body {
 
 #portfolio {
   position: relative;
-  height: 500px;
+
 }
 
 #portfolio h2 {
@@ -32,6 +32,14 @@ body {
 }
 #project h4 {
   text-align: center;
+}
+
+#jester {
+  border: 1px solid black;
+}
+
+#barter {
+  border: 1px solid black;
 }
 
 #about-me {
@@ -81,6 +89,9 @@ body {
   color: #4875B4;
 }
 
+.center {
+  text-align: center;
+}
 .underline {
   text-decoration: underline;
 }
