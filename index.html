@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="foundation-icons/foundation-icons.css" />
 
     <!-- Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Changa+One' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 
     <!-- Javascript -->
@@ -40,15 +40,17 @@
         </section>
       </nav>
     </div>
-
+    <!-- Welcome start-->
     <div name="welcome" id="welcome" class="large-12 columns">
       <h1>Welcome!</h1>
     </div>
-
+    <!-- Welcome end -->
+    <!-- Portfolio start -->
     <div class="row">
       <div class="small-12 large-12 columns" name="portfolio" id="portfolio">
-        <h2 class="bold underline">Portfolio</h2>
+        <h2 class="bold">Portfolio</h2>
         <div id="project" class="large-6 medium-6 columns">
+          <!-- TODO: Modal this -->
           <h4 class="underline">Barter</h4>
           <img id="barter" src="http://i.imgur.com/ZOFDb50.jpg">
           <p class="center">
@@ -64,6 +66,7 @@
           </p>
         </div>
         <div id="project" class="large-6 medium-6 columns">
+          <!-- TODO: Modal this -->
           <h4 class="underline">Jester</h4>
           <img id="jester" src="http://i.imgur.com/yupLenJ.jpg">
           <p class="center">
@@ -83,19 +86,29 @@
         </div> -->
       </div>
     </div>
-
+    <!-- Portfolio end -->
+    <!-- About start -->
     <div name="about-me" id="about-me" class="large-12 columns">
-      <div id="me-pics" class="large-4 medium-4 small-4 columns">
-
+      <div id="about-head" class="large-12 medium-12 small-12 columns">
+        <h2 class="bold">About Me</h2>
+        <p class="center italics">Web Developer, Dog Lover, Casual Gamer, Basic Foodie</p>
       </div>
-      <div id="me-desc" class="large-8 medium-8 small-8 columns">
-        <h2 class="bold underline">About Me</h2>
-        <p class="center">
-          Coming soon.
-        </p>
+      <div class="row">
+        <!-- <img src="#" id="about-pic" class="large-4 medium-4 small-12 columns"/> -->
+        <!-- <img src="#" id="about-pic" class="large-4 medium-4 small-12 columns"/> -->
+        <!-- <img src="#" id="about-pic" class="large-4 medium-4 small-12 columns"/> -->
+      </div>
+
+      <div class="row">
+        <div id="about-desc" class="center large-7 medium-8 small-12 large-centered medium-centered small-centered columns">  
+          <p class="center">
+            Web developer successful at building and improving web applications. Casual gamer currently addicted with <a href="http://rocketleague.tracker.network/profile/ps/whatsatardis">Rocket League</a> and <a href="overbuff.com/players/pc/BeenBeef-1185">Overwatch</a>. Frequently seen petting dogs.
+          </p>
+        </div>
       </div>
     </div>
-
+    <!-- About end -->
+    <!-- Contact start -->
     <div name="contact" id="contact" class="large-12 columns">
       <ul>
         <li>
@@ -112,7 +125,7 @@
         </li>
       </ul>
     </div>
-
+    <!-- Contact end -->
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>

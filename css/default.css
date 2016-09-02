@@ -50,7 +50,8 @@ body {
   position: relative;
   height: 500px;
   position: relative;
-  background: linear-gradient(
+  background-color: #D3D3D3;
+  /*background: linear-gradient(
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
@@ -58,7 +59,7 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 #about-me h2 {
