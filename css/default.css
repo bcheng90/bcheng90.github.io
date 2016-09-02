@@ -13,7 +13,7 @@ body {
 }
 
 #welcome h1 {
-  font-family: 'Changa One';
+  font-family: 'Lato', sans-serif;
   text-align: center;
   font-size: 8vw;
   margin-top: 75px;
@@ -27,7 +27,7 @@ body {
 }
 
 #portfolio h2 {
-  font-family: 'Changa One';
+  font-family: 'Lato', sans-serif;
   text-align: center;
 }
 #project h4 {
@@ -63,8 +63,12 @@ body {
 }
 
 #about-me h2 {
-  font-family: 'Changa One';
+  font-family: 'Lato', sans-serif;
   text-align: center;
+}
+
+#about-pic {
+  
 }
 
 #contact {
@@ -99,6 +103,9 @@ body {
 }
 .underline {
   text-decoration: underline;
+}
+.italics {
+  font-style: italic;
 }
 
 .bold {
